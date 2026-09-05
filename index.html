@@ -1,0 +1,996 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>EVERYDAY CAFÉ 台南三店｜生吐司早午餐．勝利店・海安店・陽光公園店</title>
+<meta name="description" content="EVERYDAY CAFÉ 台南三家內用店：勝利店（成大醫院旁）、海安店（神農街商圈）、陽光公園店。獨家雲朵生吐司肉蛋、100% 阿拉比卡咖啡、真鮮奶茶。粉漿蛋餅台南限定，平日早上 6:30 開門。">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300..800;1,9..144,300..700&family=Noto+Sans+TC:wght@400;500;700&family=Noto+Serif+TC:wght@400;500;600;700&display=swap" rel="stylesheet">
+<script>
+/* 圖片若尚未上線，改用設計過的色塊備援，避免破圖 */
+function imgOff(el){var f=el.closest('.fig');if(f){f.classList.add('is-fallback');}el.style.display='none';}
+/* 只有在 JS 可用時才隱藏待揭示的區塊，避免無 JS 時整頁空白 */
+document.documentElement.classList.add('js');
+</script>
+<style>
+:root{
+  --paper:#FBF6EC;
+  --paper-2:#F4EBD9;
+  --card:#FFFCF5;
+  --ink:#2C1D14;
+  --ink-2:#5C463A;
+  --line:#E3D8C4;
+  --line-soft:#EFE6D5;
+  --accent:#C8791A;
+  --accent-ink:#94510E;
+  --accent-wash:#F7E7C8;
+  --forest:#1D3A2C;
+  --forest-2:#162E23;
+  --forest-line:rgba(246,239,224,.22);
+  --cream:#F6EFE0;
+  --amber-on-dark:#E2A32B;
+  --display:"Fraunces","Noto Serif TC",Georgia,"Songti TC",serif;
+  --text:"Noto Sans TC","Helvetica Neue",Arial,"PingFang TC",sans-serif;
+  --serif-tc:"Noto Serif TC","Fraunces",Georgia,serif;
+  --pad:clamp(1.15rem,5vw,2.5rem);
+  --maxw:1180px;
+}
+*{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%}
+html:focus-within{scroll-behavior:smooth}
+body{
+  margin:0;background:var(--paper);color:var(--ink);
+  font-family:var(--text);font-size:1.0625rem;line-height:1.85;font-weight:400;
+  -webkit-font-smoothing:antialiased;
+  font-feature-settings:"palt" 1;
+}
+img{max-width:100%;height:auto;display:block}
+a{color:inherit}
+h1,h2,h3,h4{margin:0;font-weight:600;line-height:1.18;letter-spacing:-.02em}
+p{margin:0}
+ul,ol{margin:0;padding:0;list-style:none}
+::selection{background:var(--accent-wash);color:var(--ink)}
+
+.wrap{max-width:var(--maxw);margin-inline:auto;padding-inline:var(--pad)}
+.sr-only{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0}
+
+/* ---------- focus ---------- */
+:focus-visible{outline:3px solid var(--accent-ink);outline-offset:3px;border-radius:2px}
+.on-dark :focus-visible{outline-color:var(--amber-on-dark)}
+
+.skip{position:absolute;left:var(--pad);top:-4rem;z-index:99;background:var(--ink);color:var(--paper);
+  padding:.85rem 1.2rem;font-size:.9rem;letter-spacing:.04em;transition:top .15s}
+.skip:focus{top:.6rem}
+
+/* ---------- type helpers ---------- */
+.label{
+  font-family:var(--text);font-size:.72rem;font-weight:500;
+  letter-spacing:.18em;text-transform:uppercase;color:var(--accent-ink);
+  display:flex;align-items:center;gap:.7rem;margin-bottom:1.1rem;
+}
+.label::after{content:"";flex:1;height:1px;background:var(--line);max-width:5rem}
+.label--dark{color:var(--amber-on-dark)}
+.label--dark::after{background:var(--forest-line)}
+.h-display{
+  font-family:var(--display);font-weight:600;
+  font-size:clamp(2.55rem,7.6vw,5rem);line-height:1.06;letter-spacing:-.035em;
+}
+.h2{
+  font-family:var(--serif-tc);font-weight:600;
+  font-size:clamp(1.85rem,4.2vw,3rem);line-height:1.22;letter-spacing:-.025em;
+}
+.lede{font-size:clamp(1.02rem,1.5vw,1.16rem);color:var(--ink-2);max-width:38em}
+.num{font-variant-numeric:tabular-nums lining-nums;font-feature-settings:"tnum" 1,"lnum" 1}
+
+/* ---------- image fallback ---------- */
+.fig{margin:0;position:relative;overflow:hidden;background:var(--paper-2)}
+.fig.is-fallback{
+  background:
+    repeating-linear-gradient(-38deg,rgba(200,121,26,.13) 0 2px,transparent 2px 13px),
+    linear-gradient(160deg,#F3E4C6 0%,#EFD9AE 48%,#E7C98F 100%);
+}
+.fig.is-fallback::after{
+  content:attr(data-fallback);position:absolute;inset:auto 0 0 0;
+  padding:.7rem 1rem;font-size:.68rem;letter-spacing:.16em;text-transform:uppercase;
+  color:#6C4413;font-weight:500;
+}
+.fig--dark.is-fallback{
+  background:
+    repeating-linear-gradient(-38deg,rgba(226,163,43,.16) 0 2px,transparent 2px 13px),
+    linear-gradient(160deg,#264836 0%,#1D3A2C 60%,#142519 100%);
+}
+.fig--dark.is-fallback::after{color:var(--amber-on-dark)}
+.fig img{width:100%;height:100%;object-fit:cover}
+
+/* ---------- header ---------- */
+.top{border-bottom:1px solid var(--line);background:var(--paper)}
+.top-in{display:flex;align-items:center;justify-content:space-between;gap:1rem;min-height:66px}
+.mark{display:flex;align-items:baseline;gap:.6rem;text-decoration:none}
+.mark b{font-family:var(--display);font-weight:600;font-size:1.12rem;letter-spacing:.02em}
+.mark span{font-size:.72rem;letter-spacing:.16em;color:var(--ink-2);border-left:1px solid var(--line);padding-left:.6rem}
+.topnav{display:none;gap:.3rem}
+.topnav a{
+  text-decoration:none;font-size:.88rem;font-weight:500;letter-spacing:.02em;color:var(--ink-2);
+  padding:.7rem .8rem;min-height:44px;display:inline-flex;align-items:center;border-bottom:2px solid transparent;
+}
+.topnav a:hover{color:var(--ink);border-bottom-color:var(--accent)}
+@media(min-width:860px){.topnav{display:flex}.mark span{font-size:.74rem}}
+
+/* ---------- buttons ---------- */
+.btn{
+  display:inline-flex;align-items:center;justify-content:center;gap:.6rem;
+  min-height:52px;padding:.85rem 1.6rem;text-decoration:none;
+  font-family:var(--text);font-weight:500;font-size:1rem;letter-spacing:.03em;
+  background:var(--accent);color:#20140C;border:1px solid #A9640F;
+  transition:transform .15s ease,background .15s ease;
+}
+.btn:hover{background:#DA8A24;transform:translateY(-2px)}
+.btn:active{transform:translateY(0)}
+.btn-quiet{
+  display:inline-flex;align-items:center;min-height:52px;padding:.85rem 0;
+  font-weight:500;letter-spacing:.03em;color:var(--ink);
+  text-decoration:none;border-bottom:1px solid var(--ink);
+}
+.btn-quiet:hover{color:var(--accent-ink);border-bottom-color:var(--accent-ink)}
+
+/* ---------- hero ---------- */
+.hero{padding-top:clamp(2.4rem,6vw,4.6rem);padding-bottom:0}
+.hero-grid{display:grid;gap:clamp(1.8rem,4vw,3rem);align-items:end}
+.hero-eyebrow{font-size:.74rem;letter-spacing:.2em;text-transform:uppercase;color:var(--accent-ink);font-weight:500;margin-bottom:1.4rem}
+.hero h1{font-family:var(--serif-tc);font-weight:600;font-size:clamp(2.15rem,6.2vw,3.9rem);line-height:1.16;letter-spacing:-.035em}
+.hero h1 .en{font-family:var(--display);font-weight:600;letter-spacing:-.02em}
+.hero-sub{margin-top:1.5rem;font-size:clamp(1rem,1.5vw,1.12rem);color:var(--ink-2);max-width:30em}
+.hero-sub b{font-weight:500;color:var(--ink);border-bottom:2px solid var(--accent-wash)}
+.hero-cta{display:flex;flex-wrap:wrap;align-items:center;gap:1.1rem 1.8rem;margin-top:2.2rem}
+.hero-fig{aspect-ratio:4/5;min-height:280px}
+@media(min-width:900px){
+  .hero-grid{grid-template-columns:1.08fr .92fr}
+  .hero-fig{aspect-ratio:auto;height:min(72vh,620px)}
+}
+.strip{border-top:1px solid var(--line);border-bottom:1px solid var(--line);margin-top:clamp(2.6rem,6vw,4.4rem)}
+.strip ul{display:grid;grid-template-columns:1fr}
+.strip li{padding:1rem 0;font-size:.9rem;letter-spacing:.02em;color:var(--ink-2);border-bottom:1px dotted var(--line)}
+.strip li:last-child{border-bottom:0}
+.strip li b{font-weight:500;color:var(--ink)}
+@media(min-width:760px){
+  .strip ul{grid-template-columns:repeat(3,1fr)}
+  .strip li{border-bottom:0;border-left:1px solid var(--line);padding:1.15rem 1.4rem}
+  .strip li:first-child{border-left:0;padding-left:0}
+}
+
+/* ---------- story ---------- */
+.story{padding-block:clamp(4.5rem,11vw,8.5rem)}
+.story-grid{display:grid;gap:2.4rem}
+.year{
+  font-family:var(--display);font-weight:300;font-size:clamp(4.6rem,13vw,9rem);
+  line-height:.82;letter-spacing:-.05em;color:var(--accent);
+}
+.year+p{margin-top:.9rem;font-size:.8rem;letter-spacing:.12em;color:var(--ink-2);text-transform:uppercase}
+.story-body{max-width:34em}
+.story-body p+p{margin-top:1.5rem}
+.story-body .first{font-family:var(--serif-tc);font-size:clamp(1.18rem,2.2vw,1.42rem);line-height:1.75;letter-spacing:-.01em}
+@media(min-width:960px){
+  .story-grid{grid-template-columns:minmax(190px,.32fr) 1fr;gap:clamp(2rem,5vw,4.5rem)}
+  .story-rail{position:sticky;top:2.5rem;align-self:start}
+}
+.pull{
+  margin:clamp(2.6rem,6vw,4rem) 0;padding:clamp(1.6rem,4vw,2.6rem) 0;
+  border-top:1px solid var(--ink);border-bottom:1px solid var(--line);
+}
+.pull q{
+  quotes:"「" "」";display:block;font-family:var(--serif-tc);font-weight:500;
+  font-size:clamp(1.75rem,5.4vw,3.35rem);line-height:1.32;letter-spacing:-.035em;text-indent:-.5em;
+}
+.pull figcaption{margin-top:1.1rem;font-size:.82rem;letter-spacing:.1em;color:var(--ink-2)}
+.press{margin-top:2.4rem;padding-top:1.2rem;border-top:1px dotted var(--line);font-size:.87rem;color:var(--ink-2);line-height:1.75}
+.press a{color:var(--accent-ink);text-underline-offset:3px}
+
+/* ---------- commitments ---------- */
+.creed{background:var(--paper-2);border-block:1px solid var(--line);padding-block:clamp(4rem,9vw,7rem)}
+.creed-head{max-width:44em;margin-bottom:clamp(2.4rem,5vw,3.6rem)}
+.creed-head .h2{max-width:16em}
+.creed-quote{margin-top:1.4rem;font-family:var(--serif-tc);font-size:clamp(1.02rem,1.7vw,1.2rem);color:var(--ink-2);max-width:32em}
+.row{
+  display:grid;gap:.4rem 2rem;padding-block:clamp(1.9rem,4vw,2.9rem);
+  border-top:1px solid var(--line);align-items:start;
+}
+.row:last-child{border-bottom:1px solid var(--line)}
+.row-n{font-family:var(--display);font-weight:400;font-size:1.5rem;letter-spacing:-.02em;color:var(--accent-ink)}
+.row-t{font-family:var(--serif-tc);font-weight:600;font-size:clamp(1.4rem,3.2vw,2rem);letter-spacing:-.025em;line-height:1.3}
+.row-t small{display:block;font-family:var(--display);font-weight:400;font-size:.72rem;letter-spacing:.16em;text-transform:uppercase;color:var(--ink-2);margin-top:.55rem}
+.row-d{color:var(--ink-2);max-width:34em}
+@media(min-width:860px){
+  .row{grid-template-columns:4.5rem minmax(0,1fr) minmax(0,1.15fr)}
+  .row:nth-child(2){margin-left:0}
+  .row:nth-child(3){padding-left:clamp(0rem,4vw,3.5rem)}
+  .row:nth-child(4){padding-left:clamp(0rem,8vw,7rem)}
+}
+
+/* ---------- 台南限定 (full-bleed, breaks the rhythm) ---------- */
+.only{background:var(--forest);color:var(--cream);overflow:hidden}
+.only a{color:var(--amber-on-dark)}
+.only-grid{display:grid;gap:0}
+.only-text{padding:clamp(3.2rem,8vw,6.5rem) 0 clamp(3rem,7vw,5.5rem)}
+.only h2{
+  font-family:var(--serif-tc);font-weight:600;
+  font-size:clamp(2.1rem,7vw,4.15rem);line-height:1.12;letter-spacing:-.045em;
+}
+.only h2 em{font-style:normal;color:var(--amber-on-dark)}
+.only-p{margin-top:1.6rem;color:#DCD3C0;max-width:31em;font-size:clamp(1rem,1.5vw,1.1rem)}
+.only-p b{color:var(--cream);font-weight:500}
+.only-note{margin-top:1.1rem;font-size:.9rem;color:#BFB6A2;max-width:31em}
+.only-list{margin-top:clamp(2rem,4vw,2.8rem);max-width:26rem;border-top:1px solid var(--forest-line)}
+.only-list li{
+  display:flex;align-items:baseline;gap:.6rem;padding:.78rem 0;
+  border-bottom:1px solid var(--forest-line);font-size:1.02rem;
+}
+.only-list .leader{flex:1;height:0;align-self:center;border-bottom:1px dotted rgba(246,239,224,.3)}
+.only-list .price{font-family:var(--display);font-weight:500;min-width:3ch;text-align:right;
+  font-variant-numeric:tabular-nums lining-nums;color:var(--amber-on-dark)}
+.only-fig{min-height:300px;aspect-ratio:5/4}
+@media(min-width:940px){
+  .only-grid{grid-template-columns:1.02fr .98fr;gap:clamp(2.5rem,5vw,4.5rem);align-items:center}
+  .only-fig{aspect-ratio:auto;height:100%;min-height:560px;margin-right:calc(50% - 50vw)}
+}
+
+/* ---------- menu ---------- */
+.menu{padding-block:clamp(4rem,9vw,7rem) 0}
+.menu-head{display:grid;gap:1.2rem;margin-bottom:2rem}
+.menu-note{font-size:.87rem;color:var(--ink-2);letter-spacing:.02em}
+@media(min-width:900px){.menu-head{grid-template-columns:1fr auto;align-items:end}}
+
+.catnav{position:sticky;top:0;z-index:30;background:rgba(251,246,236,.96);
+  backdrop-filter:blur(8px);border-block:1px solid var(--line);margin-bottom:clamp(2rem,4vw,3rem)}
+.catnav-in{display:flex;gap:.1rem;overflow-x:auto;scrollbar-width:thin;padding-block:.15rem}
+.catnav a{
+  flex:0 0 auto;display:inline-flex;align-items:center;min-height:46px;padding:.5rem .85rem;
+  font-size:.86rem;font-weight:500;letter-spacing:.02em;color:var(--ink-2);text-decoration:none;
+  border-bottom:2px solid transparent;white-space:nowrap;
+}
+.catnav a:hover{color:var(--ink);border-bottom-color:var(--accent)}
+.catnav .is-only{color:var(--accent-ink)}
+
+.cat{padding-bottom:clamp(2.6rem,6vw,4rem)}
+.cat+.cat{border-top:1px solid var(--line-soft);padding-top:clamp(2.4rem,5vw,3.4rem)}
+.cat-h{scroll-margin-top:4.2rem;display:flex;flex-wrap:wrap;align-items:baseline;gap:.55rem .9rem;margin-bottom:.4rem}
+.cat-h h3{font-family:var(--serif-tc);font-weight:600;font-size:clamp(1.42rem,3.2vw,2.05rem);letter-spacing:-.03em}
+.cat-h .en{font-family:var(--display);font-weight:400;font-style:italic;font-size:.95rem;color:var(--ink-2);letter-spacing:0}
+.cat-sub{color:var(--ink-2);font-size:.92rem;margin-bottom:1.6rem;max-width:40em}
+
+.mlist{margin-top:1.5rem}
+@media(min-width:920px){.mlist--2{columns:2;column-gap:clamp(2.5rem,5vw,4.5rem)}}
+.mrow{break-inside:avoid;padding:.75rem 0;border-bottom:1px dotted var(--line)}
+.mrow-main{display:flex;align-items:baseline;gap:.55rem}
+.mname{font-weight:500;letter-spacing:.01em}
+.leader{flex:1 1 auto;height:0;align-self:center;border-bottom:1px dotted var(--line);min-width:1.2rem}
+.price{font-family:var(--display);font-weight:500;font-size:1.06rem;min-width:3.2ch;text-align:right;
+  font-variant-numeric:tabular-nums lining-nums;font-feature-settings:"tnum" 1,"lnum" 1}
+.mdesc{margin-top:.28rem;font-size:.88rem;line-height:1.7;color:var(--ink-2);max-width:34em}
+
+.rec{color:var(--accent-ink);font-size:.85em;margin-left:.35em;letter-spacing:0}
+.tag{
+  display:inline-block;margin-left:.45em;padding:.12em .45em;vertical-align:.12em;
+  font-size:.6rem;font-weight:500;letter-spacing:.13em;text-transform:uppercase;
+  color:var(--accent-ink);border:1px solid var(--accent);line-height:1.5;
+}
+.tag--hot{color:#8E2F1B;border-color:#C36A54;letter-spacing:.02em}
+
+/* compact chip lists for add-ons / sweet toast */
+.chips{display:grid;grid-template-columns:1fr;gap:0}
+@media(min-width:620px){.chips{grid-template-columns:1fr 1fr;column-gap:clamp(2rem,4vw,3.5rem)}}
+@media(min-width:1000px){.chips{grid-template-columns:repeat(3,1fr)}}
+.chips li{display:flex;align-items:baseline;gap:.5rem;padding:.62rem 0;border-bottom:1px dotted var(--line)}
+
+.deal{
+  margin-top:1.8rem;padding:clamp(1.3rem,3vw,1.9rem);background:var(--accent-wash);
+  border:1px solid #DCBB7E;
+}
+.deal-top{display:flex;flex-wrap:wrap;align-items:baseline;gap:.5rem 1rem}
+.deal-top h4{font-family:var(--serif-tc);font-weight:600;font-size:1.22rem;letter-spacing:-.02em}
+.deal-price{font-family:var(--display);font-weight:600;font-size:1.5rem;color:#6E3C08;
+  font-variant-numeric:tabular-nums lining-nums;margin-left:auto}
+.deal p{margin-top:.6rem;font-size:.9rem;line-height:1.8;color:#5A3A15}
+.deal .flag{font-size:.66rem;letter-spacing:.13em;text-transform:uppercase;color:#6E3C08;border:1px solid #C79A50;padding:.15em .5em}
+
+/* drinks */
+.dband{position:relative;margin-block:clamp(2.4rem,5vw,3.6rem);height:clamp(150px,26vw,260px)}
+.dhead,.drow{display:grid;grid-template-columns:1fr 3.4rem 3.4rem;gap:.5rem;align-items:baseline}
+.dhead{padding-bottom:.5rem;border-bottom:1px solid var(--ink);margin-top:1.4rem}
+.dhead span{font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-2);text-align:right}
+.dhead span:first-child{text-align:left}
+.drow{padding:.72rem 0;border-bottom:1px dotted var(--line)}
+.drow .dname{font-weight:500}
+.drow .dprice{font-family:var(--display);font-weight:500;font-size:1.04rem;text-align:right;
+  font-variant-numeric:tabular-nums lining-nums}
+.drow .dprice.na{color:#A08D7C;font-weight:400}
+.dnote{display:block;font-size:.8rem;line-height:1.6;color:var(--ink-2);margin-top:.15rem;font-weight:400}
+@media(min-width:980px){.dsplit{display:grid;grid-template-columns:1fr 1fr;column-gap:clamp(2.5rem,5vw,4.5rem)}}
+
+/* ---------- stores ---------- */
+.stores{padding-block:clamp(4rem,9vw,7rem);border-top:1px solid var(--line)}
+.sband{height:clamp(160px,28vw,320px);margin-block:clamp(2rem,4vw,3rem)}
+.scards{display:grid;gap:1.1rem;margin-top:clamp(1.6rem,3vw,2.2rem)}
+@media(min-width:800px){.scards{grid-template-columns:repeat(3,1fr);gap:1.2rem}}
+.card{
+  background:var(--card);border:1px solid var(--line);padding:clamp(1.35rem,3vw,1.75rem);
+  display:flex;flex-direction:column;
+}
+.card-top{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;margin-bottom:.9rem}
+.pill{font-size:.68rem;letter-spacing:.13em;padding:.25em .6em;border:1px solid var(--line);color:var(--ink-2)}
+.pill--soon{color:#1D3A2C;border-color:#8FA898;background:#E7EFE7;letter-spacing:.08em}
+.card h3{font-family:var(--serif-tc);font-weight:600;font-size:1.42rem;letter-spacing:-.03em}
+.card .spot{margin-top:.45rem;font-size:.88rem;color:var(--accent-ink);letter-spacing:.02em}
+.dl{margin:1.2rem 0 0;padding-top:1.1rem;border-top:1px dotted var(--line);font-size:.94rem}
+.dl div+div{margin-top:.75rem}
+.dl dt{font-size:.7rem;letter-spacing:.14em;text-transform:uppercase;color:var(--ink-2)}
+.dl dd{margin:.2rem 0 0;line-height:1.7}
+.dl dd a{color:var(--ink);text-underline-offset:3px}
+.dl dd .num{letter-spacing:.02em}
+.card-acts{display:flex;flex-wrap:wrap;gap:.6rem;margin-top:1.35rem;padding-top:1.15rem;border-top:1px solid var(--line-soft)}
+.act{
+  display:inline-flex;align-items:center;gap:.45rem;min-height:44px;padding:.55rem 1rem;
+  font-size:.88rem;font-weight:500;letter-spacing:.02em;text-decoration:none;
+  border:1px solid var(--ink);color:var(--ink);
+}
+.act:hover{background:var(--ink);color:var(--paper)}
+.act svg{width:15px;height:15px;flex:0 0 auto}
+.hours{
+  margin-top:clamp(1.6rem,3vw,2.2rem);border:1px solid var(--ink);padding:clamp(1.35rem,3vw,1.9rem);
+  display:grid;gap:1rem;
+}
+@media(min-width:800px){.hours{grid-template-columns:auto 1fr auto;align-items:center;gap:clamp(1.5rem,4vw,3rem)}}
+.hours h3{font-family:var(--serif-tc);font-weight:600;font-size:1.2rem;letter-spacing:-.02em}
+.hours-t{display:grid;gap:.35rem}
+.hours-t span{display:flex;gap:.9rem;font-size:1rem;flex-wrap:wrap}
+.hours-t b{font-family:var(--display);font-weight:500;font-variant-numeric:tabular-nums lining-nums;letter-spacing:.01em}
+.hours-t i{font-style:normal;color:var(--ink-2);font-size:.9rem;min-width:7.5em}
+.hours-n{font-size:.82rem;color:var(--ink-2);max-width:22em}
+
+/* ---------- footer ---------- */
+.foot{background:var(--forest-2);color:var(--cream);padding-block:clamp(3.6rem,8vw,6rem)}
+.foot a{color:var(--amber-on-dark)}
+.foot h2{font-family:var(--serif-tc);font-weight:600;font-size:clamp(1.9rem,5.4vw,3.4rem);letter-spacing:-.04em;line-height:1.18;max-width:12em}
+.foot-p{margin-top:1.5rem;color:#CFC7B5;max-width:34em}
+.links{display:flex;flex-wrap:wrap;gap:.7rem;margin-top:2rem}
+.links a{
+  display:inline-flex;align-items:center;min-height:48px;padding:.65rem 1.25rem;
+  text-decoration:none;font-weight:500;font-size:.95rem;letter-spacing:.03em;
+  border:1px solid var(--forest-line);color:var(--cream);
+}
+.links a:hover{background:rgba(246,239,224,.1)}
+.links a.primary{background:var(--amber-on-dark);color:#20140C;border-color:var(--amber-on-dark)}
+.links a.primary:hover{background:#EEB245}
+.foot-grid{display:grid;gap:2.4rem}
+@media(min-width:960px){.foot-grid{grid-template-columns:1.15fr .85fr;gap:clamp(2.5rem,6vw,5rem);align-items:end}}
+.foot-meta{font-size:.85rem;color:#B7AE9C;line-height:1.85}
+.foot-meta strong{display:block;color:var(--cream);font-family:var(--display);font-weight:500;letter-spacing:.04em;margin-bottom:.5rem}
+.foot-rule{margin-top:clamp(2.6rem,5vw,3.6rem);padding-top:1.4rem;border-top:1px solid var(--forest-line);
+  display:grid;gap:.9rem;font-size:.8rem;color:#A79E8D;line-height:1.8}
+@media(min-width:800px){.foot-rule{grid-template-columns:1fr auto;align-items:start;gap:2rem}}
+
+/* ---------- motion ---------- */
+.js .rv{opacity:0;transform:translateY(14px)}
+.js .rv.rv-on{opacity:1;transform:none;transition:opacity .22s ease-out,transform .22s ease-out}
+@media(prefers-reduced-motion:reduce){
+  html:focus-within{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.01ms!important;transition-duration:.01ms!important}
+  .js .rv{opacity:1;transform:none}
+}
+</style>
+</head>
+<body>
+<a class="skip" href="#main">跳到主要內容</a>
+
+<header class="top">
+  <div class="wrap top-in">
+    <a class="mark" href="#top" id="top">
+      <b>EVERYDAY CAFÉ</b>
+      <span>台南三店</span>
+    </a>
+    <nav class="topnav" aria-label="頁面導覽">
+      <a href="#story">品牌故事</a>
+      <a href="#tainan">台南限定</a>
+      <a href="#menu">完整菜單</a>
+      <a href="#stores">三家分店</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ================= HERO ================= -->
+  <section class="hero" aria-labelledby="hero-h">
+    <div class="wrap">
+      <div class="hero-grid">
+        <div>
+          <p class="hero-eyebrow">台南．勝利路／尊王路／陽光公園</p>
+          <h1 id="hero-h">熱愛生活的每一天，<br>從 <span class="en">EVERYDAY CAFÉ</span> 開始。</h1>
+          <p class="hero-sub">獨家製程的雲朵生吐司，夾多汁肉排與嫩蛋。EVERYDAY CAFÉ 在台南開了 <b>三家內用店</b>，同一份菜單、同一個價格，平日早上 <b>6:30</b> 就有熱的吃。</p>
+          <div class="hero-cta">
+            <a class="btn" href="#stores">看三家店怎麼走</a>
+            <a class="btn-quiet" href="#menu">先看菜單</a>
+          </div>
+        </div>
+        <figure class="fig hero-fig" data-fallback="招牌雲朵肉蛋生吐司">
+          <img src="img/hero-toast.jpg" alt="切開的雲朵生吐司肉蛋三明治，厚切吐司夾里肌肉排與嫩蛋" width="1100" height="1375" loading="eager" decoding="async" onerror="imgOff(this)">
+        </figure>
+      </div>
+
+      <div class="strip">
+        <ul>
+          <li><b>三店同一份菜單</b>，同一個價格，不必比價</li>
+          <li>平日 <b class="num">6:30</b> 開門，假日 <b class="num">7:00</b>，都是內用店</li>
+          <li><b>粉漿蛋餅</b>：全台只有少數分店有，台南三店都吃得到</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 品牌故事 ================= -->
+  <section class="story wrap rv" id="story" aria-labelledby="story-h">
+    <div class="story-grid">
+      <div class="story-rail">
+        <p class="label">品牌故事 · The Story</p>
+        <p class="year num">2017</p>
+        <p>新北中和・永和 創始店</p>
+      </div>
+
+      <div>
+        <h2 class="h2" id="story-h" style="max-width:13em">一次中秋節烤肉，<br>意外做出了這家店。</h2>
+
+        <div class="story-body" style="margin-top:2rem">
+          <p class="first">三明治配一杯奶茶或咖啡，早餐店有、超商也有，很多人都吃過。但用「生吐司」做的肉蛋三明治，在那之前幾乎沒有人吃過。</p>
+          <p>那年中秋節烤肉，創辦人隨手拿生吐司夾了一塊剛烤好的肉排。柔軟的生吐司吸住肉汁，一口下去，在場的人全被那個味道留住了——「如果每天都能吃到這樣的生吐司肉蛋就太幸福了！」</p>
+        </div>
+
+        <figure class="pull">
+          <q>不能只有我們吃到這樣的幸福感</q>
+          <figcaption>—— EVERYDAY CAFÉ 開始的那一句話</figcaption>
+        </figure>
+
+        <div class="story-body">
+          <p>一個簡單的想法，誕生了 EVERYDAY CAFÉ。2017 年從新北中和、永和兩家創始店起家，開幕就創下連續三年不斷排隊的紀錄。</p>
+          <p>現在，這份幸福感搬到了台南：成大醫院旁的勝利店、神農街商圈的海安店，還有即將公開的陽光公園店。為熱愛生活品質的人，提供全新的「生吐司」早餐體驗，讓每一天都成為品味生活的美好開始。</p>
+          <p class="press">媒體報導｜商業周刊〈<a href="https://www.businessweekly.com.tw/style/indep/1004556" target="_blank" rel="noopener noreferrer">2024年加盟展大黑馬 EVERYDAY CAFE 用國人最愛「肉蛋生吐司」締造快速回本紀錄</a>〉</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 我們的堅持 ================= -->
+  <section class="creed" aria-labelledby="creed-h">
+    <div class="wrap rv">
+      <div class="creed-head">
+        <p class="label">我們的堅持 · What We Insist On</p>
+        <h2 class="h2" id="creed-h">三件事，我們沒有讓步過。</h2>
+        <p class="creed-quote">「嚴選高品質的食材。我們對品質的堅持，來自顧客對我們的信任。」</p>
+      </div>
+
+      <div class="row">
+        <p class="row-n num">01</p>
+        <h3 class="row-t">雲朵生吐司<small>Cloud Shokupan</small></h3>
+        <p class="row-d">獨家製程的「雲朵生吐司」，柔軟到連牙口不好的長輩都吃得下。生吐司搭多汁肉排與嫩蛋，就是這家店存在的理由——也是我們菜單上最多人點的那一格。</p>
+      </div>
+
+      <div class="row">
+        <p class="row-n num">02</p>
+        <h3 class="row-t">100% 阿拉比卡<small>Single-Grade Arabica</small></h3>
+        <p class="row-d">咖啡豆全部採用 100% 阿拉比卡等級精品豆，以熟拼手法、獨家烘焙。早上第一杯每日美式或每日拿鐵，配得起你認真對待的一天。</p>
+      </div>
+
+      <div class="row">
+        <p class="row-n num">03</p>
+        <h3 class="row-t">真鮮奶茶<small>Real Milk, No Shortcut</small></h3>
+        <p class="row-d">鮮奶茶用真鮮奶，品牌自己稱它「良心製成 鮮奶茶品」。每日鮮奶茶每天必銷上百杯——不必我們多說，杯數自己會講話。</p>
+      </div>
+    </div>
+  </section>
+  <!-- ================= 台南限定 ================= -->
+  <section class="only on-dark" id="tainan" aria-labelledby="only-h">
+    <div class="wrap">
+      <div class="only-grid">
+        <div class="only-text">
+          <p class="label label--dark">台南限定 · Tainan Only</p>
+          <h2 id="only-h">這一味，<br><em>只有台南</em>吃得到。</h2>
+          <p class="only-p">粉漿蛋餅不是每一家 EVERYDAY CAFÉ 都有。全台分店裡，只有中和四號公園店與台南分店供應——換句話說，<b>台南勝利店、海安店、陽光公園店，三家都吃得到</b>。</p>
+          <p class="only-note">台南阿嬤家的古早味比例：粉漿現煎，外酥、內軟嫩。配一杯每日鮮奶茶，就是很台南的一頓早餐。</p>
+
+          <ul class="only-list">
+            <li><span>原味</span><span class="leader" aria-hidden="true"></span><span class="price num">55</span></li>
+            <li><span>起士</span><span class="leader" aria-hidden="true"></span><span class="price num">65</span></li>
+            <li><span>肉鬆<i class="rec" style="color:var(--amber-on-dark)" aria-hidden="true">★</i><span class="sr-only">推薦</span></span><span class="leader" aria-hidden="true"></span><span class="price num">65</span></li>
+            <li><span>薯餅<i class="rec" style="color:var(--amber-on-dark)" aria-hidden="true">★</i><span class="sr-only">推薦</span></span><span class="leader" aria-hidden="true"></span><span class="price num">85</span></li>
+            <li><span>烤肉片<i class="rec" style="color:var(--amber-on-dark)" aria-hidden="true">★</i><span class="sr-only">推薦</span></span><span class="leader" aria-hidden="true"></span><span class="price num">85</span></li>
+          </ul>
+        </div>
+
+        <figure class="fig fig--dark only-fig" data-fallback="粉漿蛋餅．台南限定">
+          <img src="img/danbing.jpg" alt="現煎粉漿蛋餅捲起後切段，外皮微酥、內裡軟嫩" width="1000" height="1000" loading="lazy" decoding="async" onerror="imgOff(this)">
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= 完整菜單 ================= -->
+  <section class="menu" id="menu" aria-labelledby="menu-h">
+    <div class="wrap">
+      <div class="menu-head">
+        <div>
+          <p class="label">完整菜單 · The Full Menu</p>
+          <h2 class="h2" id="menu-h">一份菜單，三家店通用。</h2>
+        </div>
+        <p class="menu-note">價格單位：新台幣（NT$）<br><span class="rec" aria-hidden="true">★</span> 為店家推薦品項</p>
+      </div>
+    </div>
+
+    <nav class="catnav" aria-label="菜單分類">
+      <div class="wrap catnav-in">
+        <a href="#m-toast">每日生吐司</a>
+        <a href="#m-danbing" class="is-only">粉漿蛋餅</a>
+        <a href="#m-french">嘣啾吐司</a>
+        <a href="#m-sweet">甜餡吐司</a>
+        <a href="#m-addon">加點快樂區</a>
+        <a href="#m-fried">加點炸物區</a>
+        <a href="#m-coffee">咖啡</a>
+        <a href="#m-milktea">鮮奶茶</a>
+        <a href="#m-milk">鮮奶飲品</a>
+        <a href="#m-tea">經典茶</a>
+        <a href="#m-special">特調茶</a>
+        <a href="#m-oolong">醇品茶</a>
+        <a href="#m-wellness">養生飲品</a>
+      </div>
+    </nav>
+
+    <div class="wrap">
+
+      <!-- 每日生吐司 -->
+      <div class="cat">
+        <div class="cat-h" id="m-toast">
+          <h3>每日生吐司</h3>
+          <span class="en">Japanese Soft White Bread</span>
+        </div>
+        <p class="cat-sub">獨家製程雲朵生吐司，柔軟吸汁。招牌就在這一區。</p>
+        <ul class="mlist mlist--2">
+          <li class="mrow"><div class="mrow-main"><span class="mname">招牌雲朵肉蛋<i class="rec" aria-hidden="true">★</i><span class="sr-only">推薦</span></span><span class="leader" aria-hidden="true"></span><span class="price num">80</span></div><p class="mdesc">獨家醃製而成的里肌肉排！多汁美味！</p></li>
+          <li class="mrow"><div class="mrow-main"><span class="mname">辣燻雞歐姆蛋<span class="tag tag--hot">辣</span><i class="rec" aria-hidden="true">★</i><span class="sr-only">推薦</span></span><span class="leader" aria-hidden="true"></span><span class="price num">75</span></div><p class="mdesc">燻雞搭配美式辣醬，風味層次加分！</p></li>
+          <li class="mrow"><div class="mrow-main"><span class="mname">美式火腿歐姆蛋</span><span class="leader" aria-hidden="true"></span><span class="price num">75</span></div><p class="mdesc">新鮮手切美式火腿</p></li>
+          <li class="mrow"><div class="mrow-main"><span class="mname">雙倍歐姆蛋（素）</span><span class="leader" aria-hidden="true"></span><span class="price num">65</span></div><p class="mdesc">兩倍的蛋，一天補充足夠的蛋白質</p></li>
+          <li class="mrow"><div class="mrow-main"><span class="mname">肉鬆歐姆蛋</span><span class="leader" aria-hidden="true"></span><span class="price num">60</span></div><p class="mdesc">古早味肉鬆搭配嫩蛋口感絕佳！</p></li>
+          <li class="mrow"><div class="mrow-main"><span class="mname">洋蔥鮪魚蛋</span><span class="leader" aria-hidden="true"></span><span class="price num">70</span></div><p class="mdesc">含新鮮蘋果＋洋蔥丁，天然甘甜味</p></li>
+          <li class="mrow"><div class="mrow-main"><span class="mname">起司歐姆蛋（素）</span><span class="leader" aria-hidden="true"></span><span class="price num">65</span></div><p class="mdesc">起士融化在熱熱的嫩蛋裡</p></li>
+          <li class="mrow"><div class="mrow-main"><span class="mname">薯泥蛋沙拉（五辛素）</span><span class="leader" aria-hidden="true"></span><span class="price num">65</span></div><p class="mdesc">大塊薯泥口感與口欲大滿足！</p></li>
+          <li class="mrow"><div class="mrow-main"><span class="mname">雞蛋沙拉（素）<i class="rec" aria-hidden="true">★</i><span class="sr-only">推薦</span></span><span class="leader" aria-hidden="true"></span><span class="price num">70</span></div><p class="mdesc">夏日就是要來一口清爽美味雞蛋沙拉</p></li>
+          <li class="mrow"><div class="mrow-main"><span class="mname">花生滿滿蛋（素）</span><span class="leader" aria-hidden="true"></span><span class="price num">70</span></div><p class="mdesc">滿滿的花生醬，吃得到天然的花生香氣</p></li>
+          <li class="mrow"><div class="mrow-main"><span class="mname">卡拉雞腿歐姆蛋（原味／辣味）<span class="tag">NEW</span><i class="rec" aria-hidden="true">★</i><span class="sr-only">推薦</span></span><span class="leader" aria-hidden="true"></span><span class="price num">85</span></div><p class="mdesc">雞腿爆汁彈嫩，歐姆蛋鬆軟超速配！</p></li>
+          <li class="mrow"><div class="mrow-main"><span class="mname">噴火辣肉蛋<span class="tag tag--hot">辣</span><i class="rec" aria-hidden="true">★</i><span class="sr-only">推薦</span></span><span class="leader" aria-hidden="true"></span><span class="price num">90</span></div><p class="mdesc">美式辣醬！微微辣更開胃</p></li>
+          <li class="mrow"><div class="mrow-main"><span class="mname">顆粒花生醬肉蛋<i class="rec" aria-hidden="true">★</i><span class="sr-only">推薦</span></span><span class="leader" aria-hidden="true"></span><span class="price num">95</span></div><p class="mdesc">招牌肉蛋跟滿滿花生醬，鹹甜滋味一吃忘不掉！</p></li>
+          <li class="mrow"><div class="mrow-main"><span class="mname">黑松露滿滿蛋</span><span class="leader" aria-hidden="true"></span><span class="price num">95</span></div><p class="mdesc">義大利黑松露嫩蛋！獻給品味的你</p></li>
+          <li class="mrow"><div class="mrow-main"><span class="mname">豪華雙肉蛋<i class="rec" aria-hidden="true">★</i><span class="sr-only">推薦</span></span><span class="leader" aria-hidden="true"></span><span class="price num">120</span></div><p class="mdesc">雙倍肉蛋，人氣王必點！</p></li>
+          <li class="mrow"><div class="mrow-main"><span class="mname">海陸雙響砲吐司</span><span class="leader" aria-hidden="true"></span><span class="price num">115</span></div><p class="mdesc">鮪魚，肉蛋，我通通都要！</p></li>
+          <li class="mrow"><div class="mrow-main"><span class="mname">飽飽薯泥肉蛋總匯</span><span class="leader" aria-hidden="true"></span><span class="price num">115</span></div><p class="mdesc">飽飽薯泥與肉蛋，保證吃不完！</p></li>
+          <li class="mrow"><div class="mrow-main"><span class="mname">和牛起士漢堡排吐司<span class="tag">NEW</span><i class="rec" aria-hidden="true">★</i><span class="sr-only">推薦</span></span><span class="leader" aria-hidden="true"></span><span class="price num">155</span></div><p class="mdesc">100% 和牛鮮香，奢華一口咬！</p></li>
+        </ul>
+      </div>
+
+      <!-- 粉漿蛋餅 -->
+      <div class="cat">
+        <div class="cat-h" id="m-danbing">
+          <h3>粉漿蛋餅</h3>
+          <span class="en">Taiwanese Omelet Pancake</span>
+          <span class="pill pill--soon" style="letter-spacing:.1em">台南限定</span>
+        </div>
+        <p class="cat-sub">僅中和四號公園店與台南分店供應。台南阿嬤家的古早味比例，外酥內軟嫩。</p>
+        <ul class="chips">
+          <li><span class="mname">原味</span><span class="leader" aria-hidden="true"></span><span class="price num">55</span></li>
+          <li><span class="mname">起士</span><span class="leader" aria-hidden="true"></span><span class="price num">65</span></li>
+          <li><span class="mname">肉鬆<i class="rec" aria-hidden="true">★</i><span class="sr-only">推薦</span></span><span class="leader" aria-hidden="true"></span><span class="price num">65</span></li>
+          <li><span class="mname">薯餅<i class="rec" aria-hidden="true">★</i><span class="sr-only">推薦</span></span><span class="leader" aria-hidden="true"></span><span class="price num">85</span></li>
+          <li><span class="mname">烤肉片<i class="rec" aria-hidden="true">★</i><span class="sr-only">推薦</span></span><span class="leader" aria-hidden="true"></span><span class="price num">85</span></li>
+        </ul>
+      </div>
+
+      <!-- 嘣啾吐司 -->
+      <div class="cat">
+        <div class="cat-h" id="m-french">
+          <h3>嘣啾吐司</h3>
+          <span class="en">French Toast</span>
+        </div>
+        <p class="cat-sub">吐司泡進蛋液，鍋中煎到香脆。</p>
+        <ul class="mlist mlist--2">
+          <li class="mrow"><div class="mrow-main"><span class="mname">原味法式（糖粉）<i class="rec" aria-hidden="true">★</i><span class="sr-only">推薦</span></span><span class="leader" aria-hidden="true"></span><span class="price num">60</span></div><p class="mdesc">柔軟吐司泡在蛋液裡，鍋中煎到香脆，每一口都是幸福！</p></li>
+          <li class="mrow"><div class="mrow-main"><span class="mname">花生法式<i class="rec" aria-hidden="true">★</i><span class="sr-only">推薦</span></span><span class="leader" aria-hidden="true"></span><span class="price num">65</span></div><p class="mdesc">有顆粒的花生醬！</p></li>
+          <li class="mrow"><div class="mrow-main"><span class="mname">草莓法式</span><span class="leader" aria-hidden="true"></span><span class="price num">65</span></div><p class="mdesc">有果粒的草莓果醬！</p></li>
+          <li class="mrow"><div class="mrow-main"><span class="mname">藍莓法式</span><span class="leader" aria-hidden="true"></span><span class="price num">65</span></div><p class="mdesc">微微酸甜藍莓果醬！</p></li>
+          <li class="mrow"><div class="mrow-main"><span class="mname">煉乳法式</span><span class="leader" aria-hidden="true"></span><span class="price num">65</span></div><p class="mdesc">小時候必吃的早餐！</p></li>
+          <li class="mrow"><div class="mrow-main"><span class="mname">Oreo 餅乾脆片法式<i class="rec" aria-hidden="true">★</i><span class="sr-only">推薦</span></span><span class="leader" aria-hidden="true"></span><span class="price num">65</span></div><p class="mdesc">榮登第一名！法式吐司與脆脆的口感！</p></li>
+        </ul>
+      </div>
+
+      <!-- 甜餡吐司 -->
+      <div class="cat">
+        <div class="cat-h" id="m-sweet">
+          <h3>甜餡吐司</h3>
+          <span class="en">Sweet Toast</span>
+        </div>
+        <p class="cat-sub">吐司不烤，健康更好。</p>
+        <ul class="chips">
+          <li><span class="mname">奶酥</span><span class="leader" aria-hidden="true"></span><span class="price num">40</span></li>
+          <li><span class="mname">花生醬</span><span class="leader" aria-hidden="true"></span><span class="price num">40</span></li>
+          <li><span class="mname">巧克力醬</span><span class="leader" aria-hidden="true"></span><span class="price num">40</span></li>
+          <li><span class="mname">草莓果醬</span><span class="leader" aria-hidden="true"></span><span class="price num">40</span></li>
+          <li><span class="mname">藍莓果醬</span><span class="leader" aria-hidden="true"></span><span class="price num">50</span></li>
+          <li><span class="mname">草莓＋起士</span><span class="leader" aria-hidden="true"></span><span class="price num">50</span></li>
+          <li><span class="mname">藍莓＋起士</span><span class="leader" aria-hidden="true"></span><span class="price num">50</span></li>
+          <li><span class="mname">草莓醬＋Oreo 餅乾脆片<i class="rec" aria-hidden="true">★</i><span class="sr-only">推薦</span></span><span class="leader" aria-hidden="true"></span><span class="price num">50</span></li>
+          <li><span class="mname">巧克力醬＋Oreo 餅乾脆片<i class="rec" aria-hidden="true">★</i><span class="sr-only">推薦</span></span><span class="leader" aria-hidden="true"></span><span class="price num">50</span></li>
+        </ul>
+      </div>
+      <!-- 加點快樂區 -->
+      <div class="cat">
+        <div class="cat-h" id="m-addon">
+          <h3>加點快樂區</h3>
+          <span class="en">Add Ons</span>
+        </div>
+        <p class="cat-sub">替你的吐司再加一層。</p>
+        <ul class="chips">
+          <li><span class="mname">烤肉．里肌肉片（台灣豬）</span><span class="leader" aria-hidden="true"></span><span class="price num">40</span></li>
+          <li><span class="mname">冰心地瓜</span><span class="leader" aria-hidden="true"></span><span class="price num">30</span></li>
+          <li><span class="mname">起司片</span><span class="leader" aria-hidden="true"></span><span class="price num">10</span></li>
+          <li><span class="mname">美式辣椒醬</span><span class="leader" aria-hidden="true"></span><span class="price num">10</span></li>
+          <li><span class="mname">雲朵生吐司 1 片</span><span class="leader" aria-hidden="true"></span><span class="price num">15</span></li>
+          <li><span class="mname">顆粒花生醬</span><span class="leader" aria-hidden="true"></span><span class="price num">15</span></li>
+          <li><span class="mname">雲朵生吐司包裝 6 入</span><span class="leader" aria-hidden="true"></span><span class="price num">90</span></li>
+          <li><span class="mname">雞蛋沙拉</span><span class="leader" aria-hidden="true"></span><span class="price num">30</span></li>
+          <li><span class="mname">和牛漢堡肉排（100% 和牛）</span><span class="leader" aria-hidden="true"></span><span class="price num">100</span></li>
+        </ul>
+      </div>
+
+      <!-- 加點炸物區 -->
+      <div class="cat">
+        <div class="cat-h" id="m-fried">
+          <h3>加點炸物區</h3>
+          <span class="en">Add Ons</span>
+        </div>
+        <p class="cat-sub">現炸的，配吐司或配茶都行。</p>
+        <ul class="chips">
+          <li><span class="mname">熱狗</span><span class="leader" aria-hidden="true"></span><span class="price num">25</span></li>
+          <li><span class="mname">薯餅</span><span class="leader" aria-hidden="true"></span><span class="price num">30</span></li>
+          <li><span class="mname">薯條</span><span class="leader" aria-hidden="true"></span><span class="price num">40</span></li>
+          <li><span class="mname">蘿蔔糕（純手工、無添加）<i class="rec" aria-hidden="true">★</i><span class="sr-only">推薦</span></span><span class="leader" aria-hidden="true"></span><span class="price num">35</span></li>
+          <li><span class="mname">香酥雞塊（4 塊）</span><span class="leader" aria-hidden="true"></span><span class="price num">45</span></li>
+          <li><span class="mname">雙色 QQ 球（瓜瓜園）<span class="tag">NEW</span></span><span class="leader" aria-hidden="true"></span><span class="price num">35</span></li>
+          <li><span class="mname">炸湯圓（花生餡）</span><span class="leader" aria-hidden="true"></span><span class="price num">45</span></li>
+          <li><span class="mname">卡拉雞（原味／辣味）</span><span class="leader" aria-hidden="true"></span><span class="price num">45</span></li>
+          <li><span class="mname">吉拿好棒棒 <span class="tag">NEW</span>（原味糖粉／香濃可可粉）</span><span class="leader" aria-hidden="true"></span><span class="price num">50</span></li>
+          <li><span class="mname">炸物雙拼盤（薯條＋雞塊）</span><span class="leader" aria-hidden="true"></span><span class="price num">75</span></li>
+          <li><span class="mname">尾牙大拼盤（薯條＋雞塊 6 塊＋熱狗＋QQ 球 6 顆）</span><span class="leader" aria-hidden="true"></span><span class="price num">155</span></li>
+        </ul>
+
+        <div class="deal">
+          <div class="deal-top">
+            <h4>快樂大拼盤</h4>
+            <span class="flag">★ 超划算</span>
+            <span class="deal-price num">+145</span>
+          </div>
+          <p>任選生吐司系列一份（$60~150）＋每日紅茶或每日綠茶（L 杯）＋冰心地瓜＋薯條＋火腿片＋綠花椰菜＋玉米筍＋嫩蛋</p>
+        </div>
+      </div>
+
+      <!-- 飲料分隔 -->
+      <figure class="fig dband" data-fallback="飲料系列 · Drinks">
+        <img src="img/drinks.jpg" alt="吧台上並排的每日拿鐵、每日鮮奶茶與經典茶飲" width="1600" height="600" loading="lazy" decoding="async" onerror="imgOff(this)">
+      </figure>
+
+      <!-- 咖啡 -->
+      <div class="cat">
+        <div class="cat-h" id="m-coffee">
+          <h3>咖啡系列</h3>
+          <span class="en">Coffee Selection</span>
+        </div>
+        <p class="cat-sub">萃取 100% Arabica 精品咖啡豆，採熟拼手法。</p>
+        <div class="dsplit">
+          <div>
+            <div class="dhead" aria-hidden="true"><span>品項</span><span>M</span><span>L</span></div>
+            <ul>
+              <li class="drow"><span class="dname">每日美式<i class="rec" aria-hidden="true">★</i><span class="sr-only">推薦</span></span><span class="dprice num">60</span><span class="dprice num">75</span></li>
+              <li class="drow"><span class="dname">每日拿鐵<i class="rec" aria-hidden="true">★</i><span class="sr-only">推薦</span></span><span class="dprice num">80</span><span class="dprice num">95</span></li>
+              <li class="drow"><span class="dname">澳洲馥列白（熱）<span class="dnote">M 杯限定</span></span><span class="dprice num">80</span><span class="dprice na" aria-label="無此杯型">—</span></li>
+              <li class="drow"><span class="dname">卡布奇諾（熱）<span class="dnote">M 杯限定</span></span><span class="dprice num">80</span><span class="dprice na" aria-label="無此杯型">—</span></li>
+            </ul>
+          </div>
+          <div>
+            <div class="dhead" aria-hidden="true"><span>品項</span><span>M</span><span>L</span></div>
+            <ul>
+              <li class="drow"><span class="dname">摩卡咖啡</span><span class="dprice num">90</span><span class="dprice num">105</span></li>
+              <li class="drow"><span class="dname">榛果拿鐵</span><span class="dprice num">90</span><span class="dprice num">105</span></li>
+              <li class="drow"><span class="dname">焦糖拿鐵<i class="rec" aria-hidden="true">★</i><span class="sr-only">推薦</span></span><span class="dprice num">90</span><span class="dprice num">105</span></li>
+              <li class="drow"><span class="dname">香草拿鐵</span><span class="dprice num">90</span><span class="dprice num">105</span></li>
+              <li class="drow"><span class="dname">黑糖拿鐵</span><span class="dprice num">90</span><span class="dprice num">105</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- 鮮奶茶 -->
+      <div class="cat">
+        <div class="cat-h" id="m-milktea">
+          <h3>鮮奶茶系列</h3>
+          <span class="en">Milk Tea Selection</span>
+        </div>
+        <p class="cat-sub">真鮮奶製成。每日鮮奶茶，每天必銷上百杯。</p>
+        <div class="dsplit">
+          <div>
+            <div class="dhead" aria-hidden="true"><span>品項</span><span>L</span><span>XL</span></div>
+            <ul>
+              <li class="drow"><span class="dname">每日鮮奶茶<i class="rec" aria-hidden="true">★</i><span class="sr-only">推薦</span></span><span class="dprice num">55</span><span class="dprice num">70</span></li>
+              <li class="drow"><span class="dname">每日鮮奶綠<i class="rec" aria-hidden="true">★</i><span class="sr-only">推薦</span></span><span class="dprice num">55</span><span class="dprice num">70</span></li>
+              <li class="drow"><span class="dname">伯爵鮮奶茶</span><span class="dprice num">65</span><span class="dprice num">80</span></li>
+            </ul>
+          </div>
+          <div>
+            <div class="dhead" aria-hidden="true"><span>品項</span><span>L</span><span>XL</span></div>
+            <ul>
+              <li class="drow"><span class="dname">黑糖鮮奶茶</span><span class="dprice num">70</span><span class="dprice num">85</span></li>
+              <li class="drow"><span class="dname">焦糖鮮奶茶<i class="rec" aria-hidden="true">★</i><span class="sr-only">推薦</span></span><span class="dprice num">70</span><span class="dprice num">85</span></li>
+              <li class="drow"><span class="dname">榛果鮮奶茶</span><span class="dprice num">70</span><span class="dprice num">85</span></li>
+              <li class="drow"><span class="dname">香草鮮奶茶</span><span class="dprice num">70</span><span class="dprice num">85</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <!-- 鮮奶飲品 -->
+      <div class="cat">
+        <div class="cat-h" id="m-milk">
+          <h3>鮮奶飲品系列</h3>
+          <span class="en">Milky Way Selection</span>
+        </div>
+        <p class="cat-sub">不喝茶也不喝咖啡的那一位，點這裡。</p>
+        <div class="dsplit">
+          <div>
+            <div class="dhead" aria-hidden="true"><span>品項</span><span>M</span><span>L</span></div>
+            <ul>
+              <li class="drow"><span class="dname">喬名．頂級可可鮮奶<span class="dnote">甜度固定</span></span><span class="dprice num">65</span><span class="dprice num">80</span></li>
+              <li class="drow"><span class="dname">黑糖鮮奶<span class="dnote">甜度固定．M 杯限定</span></span><span class="dprice num">75</span><span class="dprice na" aria-label="無此杯型">—</span></li>
+            </ul>
+          </div>
+          <div>
+            <div class="dhead" aria-hidden="true"><span>品項</span><span>M</span><span>L</span></div>
+            <ul>
+              <li class="drow"><span class="dname">日本宇治抹茶那堤<i class="rec" aria-hidden="true">★</i><span class="sr-only">推薦</span><span class="dnote">M 杯限定</span></span><span class="dprice num">100</span><span class="dprice na" aria-label="無此杯型">—</span></li>
+              <li class="drow"><span class="dname">日本極上焙茶那堤<i class="rec" aria-hidden="true">★</i><span class="sr-only">推薦</span><span class="dnote">M 杯限定</span></span><span class="dprice num">100</span><span class="dprice na" aria-label="無此杯型">—</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- 經典茶 -->
+      <div class="cat">
+        <div class="cat-h" id="m-tea">
+          <h3>經典茶系列</h3>
+          <span class="en">Classic Tea Selection</span>
+        </div>
+        <div class="dsplit">
+          <div>
+            <div class="dhead" aria-hidden="true"><span>品項</span><span>L</span><span>XL</span></div>
+            <ul>
+              <li class="drow"><span class="dname">每日綠茶</span><span class="dprice num">30</span><span class="dprice num">40</span></li>
+              <li class="drow"><span class="dname">每日紅茶</span><span class="dprice num">30</span><span class="dprice num">40</span></li>
+              <li class="drow"><span class="dname">舒活薄荷茶<span class="dnote">無咖啡因</span></span><span class="dprice num">45</span><span class="dprice num">55</span></li>
+            </ul>
+          </div>
+          <div>
+            <div class="dhead" aria-hidden="true"><span>品項</span><span>L</span><span>XL</span></div>
+            <ul>
+              <li class="drow"><span class="dname">唐寧早餐紅茶<span class="dnote">現點現泡</span></span><span class="dprice num">45</span><span class="dprice num">55</span></li>
+              <li class="drow"><span class="dname">唐寧伯爵茶<i class="rec" aria-hidden="true">★</i><span class="sr-only">推薦</span><span class="dnote">現點現泡</span></span><span class="dprice num">45</span><span class="dprice num">55</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- 特調茶 -->
+      <div class="cat">
+        <div class="cat-h" id="m-special">
+          <h3>特調茶系列</h3>
+          <span class="en">Special Tea Selection</span>
+        </div>
+        <div class="dsplit">
+          <div>
+            <div class="dhead" aria-hidden="true"><span>品項</span><span>L</span><span>XL</span></div>
+            <ul>
+              <li class="drow"><span class="dname">黑糖每日紅茶<span class="dnote">甜度固定</span></span><span class="dprice num">50</span><span class="dprice num">60</span></li>
+              <li class="drow"><span class="dname">黑糖伯爵紅茶<i class="rec" aria-hidden="true">★</i><span class="sr-only">推薦</span><span class="dnote">甜度固定．現點現泡</span></span><span class="dprice num">65</span><span class="dprice num">75</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- 醇品茶 -->
+      <div class="cat">
+        <div class="cat-h" id="m-oolong">
+          <h3>醇品茶系列</h3>
+          <span class="en">Taiwanese Tea Selection</span>
+        </div>
+        <p class="cat-sub">皆現點現泡。</p>
+        <div class="dsplit">
+          <div>
+            <div class="dhead" aria-hidden="true"><span>品項</span><span>L</span><span>XL</span></div>
+            <ul>
+              <li class="drow"><span class="dname">高山焙烏龍（大禹嶺）</span><span class="dprice num">50</span><span class="dprice num">55</span></li>
+              <li class="drow"><span class="dname">文山包種茶</span><span class="dprice num">50</span><span class="dprice num">55</span></li>
+              <li class="drow"><span class="dname">台灣蜜香紅玉<i class="rec" aria-hidden="true">★</i><span class="sr-only">推薦</span><span class="dnote">可回沖</span></span><span class="dprice num">65</span><span class="dprice num">75</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- 養生飲品 -->
+      <div class="cat">
+        <div class="cat-h" id="m-wellness">
+          <h3>養生飲品系列</h3>
+          <span class="en">Wellness Beverage</span>
+        </div>
+        <p class="cat-sub">主廚精心熬煮，整瓶帶走。</p>
+        <ul class="chips">
+          <li><span class="mname">每日銀耳露（微微糖）<i class="rec" aria-hidden="true">★</i><span class="sr-only">推薦</span><span class="dnote">400ML／瓶</span></span><span class="leader" aria-hidden="true"></span><span class="price num">70</span></li>
+          <li><span class="mname">每日黑木耳露（無糖）<i class="rec" aria-hidden="true">★</i><span class="sr-only">推薦</span><span class="dnote">400ML／瓶</span></span><span class="leader" aria-hidden="true"></span><span class="price num">70</span></li>
+        </ul>
+      </div>
+
+    </div>
+  </section>
+  <!-- ================= 三家分店 ================= -->
+  <section class="stores" id="stores" aria-labelledby="stores-h">
+    <div class="wrap">
+      <p class="label">三家分店 · Find Us in Tainan</p>
+      <h2 class="h2" id="stores-h" style="max-width:14em">挑一家最近的，坐下來吃。</h2>
+      <p class="lede" style="margin-top:1.1rem">三家都是內用店。吐司現做現上，坐著吃，它還是熱的。</p>
+
+      <figure class="fig sband" data-fallback="EVERYDAY CAFÉ 台南門市">
+        <img src="img/storefront.jpg" alt="EVERYDAY CAFÉ 門市外觀，早晨的騎樓與亮著燈的店面" width="1600" height="700" loading="lazy" decoding="async" onerror="imgOff(this)">
+      </figure>
+
+      <ul class="scards">
+        <li class="card rv">
+          <div class="card-top">
+            <span class="pill">內用店</span>
+          </div>
+          <h3>台南勝利店</h3>
+          <p class="spot">成大醫院旁</p>
+          <dl class="dl">
+            <div>
+              <dt>地址</dt>
+              <dd>704 台南市北區勝利路 <span class="num">204</span> 號 <span class="num">1</span> 樓</dd>
+            </div>
+            <div>
+              <dt>電話</dt>
+              <dd><a class="num" href="tel:+886939320888">0939 320 888</a></dd>
+            </div>
+          </dl>
+          <div class="card-acts">
+            <a class="act" href="https://www.google.com/maps/search/?api=1&amp;query=704%20%E5%8F%B0%E5%8D%97%E5%B8%82%E5%8C%97%E5%8D%80%E5%8B%9D%E5%88%A9%E8%B7%AF%20204%20%E8%99%9F%201%20%E6%A8%93" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11Z"/><circle cx="12" cy="10" r="2.6"/></svg>
+              導航到勝利店
+            </a>
+            <a class="act" href="tel:+886939320888">撥打電話</a>
+          </div>
+        </li>
+
+        <li class="card rv">
+          <div class="card-top">
+            <span class="pill">內用店</span>
+          </div>
+          <h3>台南海安店</h3>
+          <p class="spot">中西區．神農街／海安路商圈</p>
+          <dl class="dl">
+            <div>
+              <dt>地址</dt>
+              <dd>700 台南市中西區尊王路 <span class="num">79</span> 號 <span class="num">1</span> 樓</dd>
+            </div>
+            <div>
+              <dt>電話</dt>
+              <dd><a class="num" href="tel:+886914029888">0914 029 888</a></dd>
+            </div>
+          </dl>
+          <div class="card-acts">
+            <a class="act" href="https://www.google.com/maps/search/?api=1&amp;query=700%20%E5%8F%B0%E5%8D%97%E5%B8%82%E4%B8%AD%E8%A5%BF%E5%8D%80%E5%B0%8A%E7%8E%8B%E8%B7%AF%2079%20%E8%99%9F%201%20%E6%A8%93" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 21s7-6.2 7-11a7 7 0 1 0-14 0c0 4.8 7 11 7 11Z"/><circle cx="12" cy="10" r="2.6"/></svg>
+              導航到海安店
+            </a>
+            <a class="act" href="tel:+886914029888">撥打電話</a>
+          </div>
+        </li>
+
+        <li class="card rv">
+          <div class="card-top">
+            <span class="pill">內用店</span>
+            <span class="pill pill--soon">即將公開</span>
+          </div>
+          <h3>台南陽光公園店</h3>
+          <p class="spot">台南</p>
+          <dl class="dl">
+            <div>
+              <dt>地址與電話</dt>
+              <dd>地址與電話近期公布，請洽官方粉專</dd>
+            </div>
+            <div>
+              <dt>怎麼掌握開幕</dt>
+              <dd>粉專會第一時間公告地址、電話與開幕日。</dd>
+            </div>
+          </dl>
+          <div class="card-acts">
+            <a class="act" href="https://www.facebook.com/everydaycafe888" target="_blank" rel="noopener noreferrer">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M14.5 8.5h2.2M14.5 8.5V6.9c0-1 .6-1.6 1.6-1.6h1.1M14.5 8.5V19"/><rect x="3.5" y="3.5" width="17" height="17" rx="2.5"/></svg>
+              到粉專看最新消息
+            </a>
+          </div>
+        </li>
+      </ul>
+
+      <div class="hours">
+        <h3>營業時間</h3>
+        <div class="hours-t">
+          <span><i>週一至週五</i><b class="num">6:30 – 13:30</b></span>
+          <span><i>週六、週日</i><b class="num">7:00 – 14:00</b></span>
+        </div>
+        <p class="hours-n">三店採同一份品牌菜單與同一組價格。實際營業時間以各店公告為準。</p>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer class="foot on-dark">
+  <div class="wrap">
+    <div class="foot-grid">
+      <div>
+        <p class="label label--dark">明天早上 · Come Eat</p>
+        <h2>台南的早晨很短，我們幫你留了位子。</h2>
+        <p class="foot-p">六點半到一點半，吐司在煎、鮮奶茶在泡。想外帶、想先點好再過來，Linktree 有線上點餐；想知道陽光公園店哪天開，追粉專最快。走進來坐下，讓我們把你一天的第一口做好——這三家店，是台南人自己在顧的。</p>
+        <div class="links">
+          <a class="primary" href="https://linktr.ee/everydaycafe" target="_blank" rel="noopener noreferrer">線上點餐 Linktree</a>
+          <a href="https://www.everydaycafe.net/" target="_blank" rel="noopener noreferrer">品牌官網</a>
+          <a href="https://www.facebook.com/everydaycafe888" target="_blank" rel="noopener noreferrer">Facebook</a>
+          <a href="https://www.instagram.com/everydaycafe_brunch" target="_blank" rel="noopener noreferrer">Instagram</a>
+        </div>
+      </div>
+
+      <div class="foot-meta">
+        <strong>EVERYDAY CAFÉ 台南</strong>
+        台南勝利店｜北區勝利路 204 號 1 樓<br>
+        台南海安店｜中西區尊王路 79 號 1 樓<br>
+        台南陽光公園店｜即將公開<br><br>
+        週一至週五 6:30–13:30<br>
+        週六、週日 7:00–14:00
+      </div>
+    </div>
+
+    <div class="foot-rule">
+      <p>營業時間與品項以各店現場公告為準；菜單資訊整理自品牌官網。</p>
+      <p>熱愛生活的每一天，從 EVERYDAY CAFÉ 開始。</p>
+    </div>
+  </div>
+</footer>
+
+<script>
+(function(){
+  var reduce = window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var items = document.querySelectorAll('.rv');
+  if (reduce || !('IntersectionObserver' in window)) {
+    for (var i=0;i<items.length;i++) items[i].classList.remove('rv');
+    return;
+  }
+  var io = new IntersectionObserver(function(entries){
+    entries.forEach(function(e){
+      if (e.isIntersecting){ e.target.classList.add('rv-on'); io.unobserve(e.target); }
+    });
+  }, {rootMargin:'0px 0px -8% 0px', threshold:0.08});
+  items.forEach(function(el){ io.observe(el); });
+})();
+</script>
+
+</body>
+</html>
